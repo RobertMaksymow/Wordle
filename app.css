@@ -1,0 +1,74 @@
+body {
+  background-color: #c7dbc7;
+  min-width: 300px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.guess {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.guess-letter {
+  width: 40px;
+  height: 50px;
+  border: 2px solid black;
+  font-size: 2.5em;
+  padding: 1px;
+  margin: 0.1em;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess-letter-orange {
+  width: 40px;
+  height: 50px;
+  border: 2px solid black;
+  font-size: 2.5em;
+  padding: 1px;
+  margin: 0.1em;
+  background-color: rgb(250, 160, 55);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess-letter-green {
+  width: 40px;
+  height: 50px;
+  border: 2px solid black;
+  font-size: 2.5em;
+  padding: 1px;
+  margin: 0.1em;
+  background-color: rgb(100, 255, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#keyboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: auto;
+}
+
+.keyboard-operate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
